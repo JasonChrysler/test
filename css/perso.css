@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;                               /* Taille usuelle pour les textes imprimés */
+  font-weight: normal;                           /* Pas en gras */
+  font-style: normal;                            /* Pas en italique */
+  line-height: 1.5;                              /* Hauteur de ligne lisible */
+                          /* Espacement standard entre les lettres */
+  word-spacing: normal;                          /* Espacement standard entre les mots */
+  text-align: justify;                           /* Alignement du texte sur les deux bords */
+  text-transform: none;                          /* Pas de majuscules forcées */
+  color: #000000;                                /* Noir, pour impression */
+ 
+}
+
+.decalo{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.table1 {
+    width: 90%;
+    border-collapse: collapse;
+   
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 100px;      /* Ajoute de l'espace au-dessus du tableau */
+    margin-bottom: 100px;
+     }
+ .table2 {
+    width: 90%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-left:auto; 
+    margin-right:auto;
+        margin-top: 40px;      /* Ajoute de l'espace au-dessus du tableau */
+    margin-bottom: 40px;
+    }
+   .table3 {
+    width: 90%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-left:auto; 
+    margin-right:auto;
+        margin-top: 40px;      /* Ajoute de l'espace au-dessus du tableau */
+    margin-bottom: 40px;
+    border: none;
+    width: 100%;
+    
+  }
+.table4 {
+    width: 90%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+     margin-top: 40px;      /* Ajoute de l'espace au-dessus du tableau */
+    margin-bottom: 40px;
+    border: none;
+  }
+
+  .table4 td, .table4 th {
+    border: none ;
+}
+.table2 td, .table2 th,
+.table3 td, .table3 th {
+    padding: 1px 2px;
+}
+
+.table2 td:first-child,
+.table3 td:first-child {
+    width: 40%;   /* Largeur plus grande pour la première colonne */
+    height: 10px;
+}
+
+.table2 td:not(:first-child),
+.table3 td:not(:first-child) {
+    width: 10%;   /* Largeur plus petite pour les autres colonnes */
+}
+
+td, th {
+    padding: 2px 3px; /* Réduit l'espace interne */
+    font-size: 1.3em;
+}
+.exercice1,
+.exercice2,
+.exercice3,
+.exercice4 {
+    margin-left: 30px; /* Décale la div vers la droite */
+    border: 2px solid rgba(0, 0, 0, 0.288);
+    margin-bottom: 40px;
+    padding: 100px;
+    /*margin: 100px;*/
+}
+.page1 ,.page2 , .page3{
+ margin-left: 30px; /* Décale la div vers la droite */
+    border: 2px solid rgba(0, 0, 0, 0.288);
+    margin-bottom: 40px;
+    padding: 100px;
+
+}
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.3em;
+  }
+  .bold-text {
+    font-weight: bold;
+  }
+
+.decale {
+  margin-left: 3px;
+  
+}
+/*decalement pour le graph*/
+.exercice4 .decale{
+       display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    
+}
+
+a{
+  margin-left: 100px;
+  color: red;
+  
+}
+
+.question{
+  margin-left: 55px;
+  
+  margin: 25px;
+}
+
+  /*style de la zone de texte*/
+    input[type="text"] {
+            border: none;
+            border-bottom: 2px solid black; /* couleur bleue comme un cahier */
+            outline: none;
+            font-size: 18px;
+            padding: 4px 8px;
+           /* margin: 25px;*/
+            width: 400px; 
+            font-family: Arial, sans-serif
+        }
+        /*pied de page */
+        .separateur-pied {
+    border: none;
+    border-top: 2px solid #333;
+    margin: 40px 0 10px 0;
+}
+  /*gestion du pied de page*/
+.pied-page {
+    text-align: right;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+.numero-page {
+    font-weight: bold;
+}
+/*div du graph*/
+
+button{
+    align-self: center;
+    background: rgba(6, 169, 181, 0.483);
+    border-radius: 5px;
+    color: black;
+    padding: 20px;
+    width: 200px;
+    margin-left: 500px;
+}
+ button:hover{
+    background: white;
+ }

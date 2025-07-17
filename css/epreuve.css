@@ -1,0 +1,206 @@
+  
+body {
+   font-family: Arial, sans-serif;  /* Police classique avec empattement */
+  font-size: 20px;                               /* Taille usuelle pour les textes imprimés */
+  font-weight: normal;                           /* Pas en gras */
+  font-style: normal;                            /* Pas en italique */
+  line-height: 1;                              /* Hauteur de ligne lisible */
+  letter-spacing: normal;                        /* Espacement standard entre les lettres */
+  word-spacing: 0.1px;                          /* Espacement standard entre les mots */
+  text-align: justify;                           /* Alignement du texte sur les deux bords */
+  text-transform: none;                          /* Pas de majuscules forcées */
+  color: #000000;                                /* Noir, pour impression */
+ 
+}
+h3{
+    margin-top: 50px;
+    font-weight: bold;
+}
+.bold-text{
+     font-weight: bold;
+}
+.table1 {
+    width: 100%;
+    border-collapse: collapse;    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 100px;      /* Ajoute de l'espace au-dessus du tableau */
+    margin-bottom: 10px;
+     }
+ .table2 {
+    height: 1px;
+    justify-content:  right;
+    width: 70%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-left:50px; 
+    margin-right:50px;
+        margin-top: 40px;      /* Ajoute de l'espace au-dessus du tableau */
+    margin-bottom: 40px;
+    }
+   .table3 {
+  
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-left:60px; 
+    margin-right:auto;
+    margin-top: 40px;      /* Ajoute de l'espace au-dessus du tableau */
+    margin-bottom: 40px;
+    border: none;
+    width: 50%;
+     height: 1px; 
+  }
+.table4 {
+    width: 90%;
+    margin-left: 100px;
+    font-family: Arial, sans-serif;
+     margin-top: 40px;      /* Ajoute de l'espace au-dessus du tableau */
+    margin-bottom: 40px;
+    border: none;
+    display: flex;
+    align-self: center;
+    
+  }
+
+.table4 td, .table4 th {
+    border: none ;
+    text-align: left;
+    padding-left: 50px;
+}
+.table2 td, .table2 th,
+.table3 td, .table3 th {
+    padding: 1px 3px;
+}
+
+.table2 td:first-child{
+ width: 30%;   /* Largeur plus grande pour la première colonne */
+ height: 10px;   
+}
+.table3 td:first-child {
+    width: 20%;   /* Largeur plus grande pour la première colonne */
+    height: 5px;
+}
+
+.table2 td:not(:first-child),
+.table3 td:not(:first-child) {
+    width: 12%;   /* Largeur plus petite pour les autres colonnes */
+}
+
+td, th {
+    padding: 2px 3px; /* Réduit l'espace interne */
+    font-size: 1.3em;
+}
+
+
+/*.exercice1,
+.exercice2,
+.exercice3,
+.exercice4 {
+    margin-left: 0px; /* Décale la div vers la droite 
+    border: 2px solid rgba(0, 0, 0, 0.288);
+    margin-bottom: 10px;
+    padding: 0px;
+    /*margin: 100px;
+}*/
+.page1 ,.page2 , .page3{
+ margin-left: 10px; /* Décale la div vers la droite */
+    border: 2px solid rgba(0, 0, 0, 0.288);
+    margin-bottom: 40px;
+    padding: 50px;
+
+}
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.3em;
+  }
+
+.decale {
+  margin-left: 3px;
+  font-size: 1.2em;
+}
+.decal{
+    margin-left: 50px;
+}
+.questiond{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    align-items: center;
+    padding: 0px 40px;
+    
+}
+
+
+/*decalement pour le graph*/
+.decalo {
+   font-size: 1.2em;
+}
+
+a{
+  margin-left: 100px;
+  color: red;
+  
+}
+.page1 .question{
+   margin-left: 55px;
+}
+.question {
+  margin-left: 55px;
+  font-size: 1.2em;
+  margin: 5px;
+  display: flex;
+}
+
+h3 .points{
+    margin-left: 50px;
+}
+  /*style de la zone de texte*/
+    input[type="text"] {
+            border: none;
+            border-bottom: 2px solid black; /* couleur bleue comme un cahier */
+            outline: none;
+            font-size: 18px;
+            padding: 4px 8px;
+           /* margin: 25px;*/
+            width: 400px; 
+            font-family: Arial, sans-serif;
+        }
+        /*pied de page */
+ .separateur-pied {
+    border: none;
+    border-top: 2px solid #333;
+    margin: 40px 0 10px 0;
+}
+  /*gestion du pied de page*/
+.pied-page {
+    text-align: right;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+.numero-page {
+    font-weight: bold;
+    margin-right: 100px;
+}
+/*div du graph*/
+
+
+.pt {
+  display: block;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+
+/*pour le pictogramme*/
+.page3 .decale{
+       display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    
+}
+
